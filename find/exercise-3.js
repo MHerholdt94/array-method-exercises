@@ -14,17 +14,8 @@ You will need to find a todo that has the following properties:
   id: 43,
 
 */
-// import { todos } from "./exercise-3-data.js";
+import { todos } from "./exercise-3-data.js";
 
-// const foundTodo = todos.find(({ userId, id }) => userId === 3 && id === 43);
+const foundTodo = todos.find(({ userId, id }) => userId === 3 && id === 43);
 
-// console.log(foundTodo);
-
-// -----------------------------------------------
-
-const values = [100, 200, 300, 400, 500];
-
-const newArray = values.every((element, index, array) => {
-  // Return true if it matches your condition and every() will keep looping
-  // Return false if the condition is not matched and it will immediately break out, and return false as the final result. This is because not "every" value is valid
-});
+console.log(foundTodo);
