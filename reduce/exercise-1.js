@@ -6,7 +6,7 @@ Use .reduce to reduce all of the values to a single total.
 An array 'values' has been provided for you.
 
 A variable 'total' has been provided for you. You must use
-this variable for the result of you .reduce array method.
+this variable for the result of your .reduce array method.
 
 Tip: Don't forget to set the initial value to 0
 
@@ -14,6 +14,6 @@ Tip: Don't forget to set the initial value to 0
 
 const values = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-const total = null; // Replace null and add .reduce code here
+const total = values.reduce((total, value) => (total += value), 0);
 
 console.log(total);
